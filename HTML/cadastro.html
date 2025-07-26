@@ -7,11 +7,13 @@
             <link rel="stylesheet" href="/CSS/cadastro.css">
         </head>
         <body>
-            <nav>
-                <a href="index.html">Retornar a página inicial</a>
-            </nav>
-            <div>
-                <img src="https://uploads.onecompiler.io/43qyrtjtk/43rs3f9n3/loogo.jpg" alt="Não foi possivel carregar a logo">
+            <div class="topo">
+                <div class="logo">
+                    <img src="https://uploads.onecompiler.io/43qyrtjtk/43rs3f9n3/loogo.jpg" alt="Logo do restaurante">
+                </div>
+                <nav>
+                    <a href="index.html">Retornar à página inicial</a>
+                </nav>
             </div>
             <header>
             <div class="content">
@@ -24,37 +26,43 @@
                 <form action="" autocomplete="off">
 
                     <p>
-                        <label for="nome">Nome</label>
-                        <input type="text" name="nome" id="nome" placeholder="Digite seu nome aqui">
+                        <label for="nome">Nome:</label>
+                        <input class="texto" type="text" name="nome" id="nome" placeholder="Digite seu nome aqui">
                     </p>
 
                     <p>
-                        <label for="email">Email</label>
-                        <input type="email" name="email" id="email" placeholder="Digite seu email aqui">
+                        <label for="email">Email:</label>
+                        <input class="texto" type="email" name="email" id="email" placeholder="Digite seu email aqui">
                     </p>
 
                     <p>
-                        <label for="data">Data</label>
-                        <input type="date" name="data" id="data">
+                        <label for="data">Data:</label>
+                        <input class="texto" type="date" name="data" id="data">
                     </p>
+                    
                     <p>
-                        <label for="horario">Horario</label>
-                        <input type="time" name="horario" id="horario">
+                        <label for="horario">Horario:</label>
+                        <input class="texto" type="time" name="horario" id="horario">
                     </p>
+
                     <p>
                         <label for="mesas">Mesas Disponiveis:</label>
                         Mesa 9 <input type="checkbox" name="mesas" id="mesas">
                         Mesa 16 <input type="checkbox" name="mesas" id="mesas">
                         Mesa 29 <input type="checkbox" name="mesas" id="mesas">
-                        Mesa 31 <input type="checkbox" name="mesas" id="mesas">
-                        Mesa 35 <input type="checkbox" name="mesas" id="mesas">
+                        Mesa 31 <input  type="checkbox" name="mesas" id="mesas">
+                        Mesa 35 <input  type="checkbox" name="mesas" id="mesas">
                     </p>
+
                     <p>
                         Tenho código promocional<input type="checkbox" name="codigo" id="codigo">
                     </p>
-                        <input type="submit" value="Enviar">
+
+                    <p class="enviar">
+                        <input class="botao" type="submit" value="Enviar">
+                    </p>
+
                 </form>
-            </div>
             </main>
             <footer>
                 <p>Ao clicar no botão enviar acima você estará aceitando os nossos nossos <em>Termos de Uso</em> e <em>Politica de Privacidade.</em></p>
