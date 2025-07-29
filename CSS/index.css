@@ -1,10 +1,19 @@
 body{
-    background-image: url("https://uploads.onecompiler.io/43qyrtjtk/43rs3f9n3/Design%20sem%20nome_20250725_182656_0000.jpg");
+    background-image: url("https://uploads.onecompiler.io/43qyrtjtk/43s5fjg7y/CARDAPIOS_20250729_130127_0000.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 95vh;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    color: white;
+    width: 580px;
+    font-size: 40px;
+    margin-top: 320px;
+    margin-left: 450px;
+    text-align: left;
 }
 
 nav{
