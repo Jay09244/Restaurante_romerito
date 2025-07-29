@@ -2,6 +2,7 @@ body{
     background-color: black;
     color: white;
     box-sizing: border-box;
+    text-align: center;
 }
 main img{
     width: 500px;
@@ -76,7 +77,9 @@ section p{
 .preco{
     font-size: 20px;
 }
-
+#doce{
+    width: 60px;
+}
 /* Rodapé */
 footer {
     background-color: rgba(255, 255, 255, 0.1);
