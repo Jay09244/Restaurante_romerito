@@ -1,7 +1,6 @@
 body{
     background-color: black;
     color: white;
-    text-align: center;
     box-sizing: border-box;
 }
 main img{
@@ -17,6 +16,7 @@ main img{
 nav {
     display: flex;
     gap: 20px;
+    text-align: center;
 }
 
 nav a {
@@ -24,9 +24,10 @@ nav a {
     text-decoration: none;
     font-size: 15px;
     font-weight: 500;
-    padding: 10px 20px;
+    padding: 2px 2px;
     transition: all 0.3s ease;
     background-color: rgba(255, 255, 255, 0);
+    margin: 0 auto;
 }
 
 nav a:hover {
@@ -35,23 +36,45 @@ nav a:hover {
 }
 
 
-.caixa {
+.caixa { 
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: red;
+    background-color: rgb(0, 0, 0);
     margin: 10px;
-    padding: 10px;
+    padding: 10px; 
 }
 
 .caixa section {
-    background-color: blue;
+    background-color: rgb(0, 0, 0);
     margin: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 10px;
+}
+/* Botão */
+button{
+    background-color: rgba(235, 28, 28, 0.729);
+    border-radius: 20px;
+    border: none;
+    color: rgb(209, 183, 183);
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* Tamanho do Título */
+h3{
+    font-size: 40px;
+}
+
+section p{
+    text-align: justify;
+}
+
+.preco{
+    font-size: 20px;
 }
 
 /* Rodapé */
