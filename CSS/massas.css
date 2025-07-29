@@ -2,6 +2,7 @@ body{
     background-color: black;
     color: white;
     box-sizing: border-box;
+    text-align: center;
 }
 main img{
     width: 500px;
