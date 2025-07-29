@@ -14,9 +14,11 @@ body {
     background-color: transparent;
 }
 section{
-    width: 1000px;
-    align-items: center;
-}
+      max-width: 1000px;
+     margin: 40px auto;
+     padding: 20px;
+        text-align: center; /* opcional: só se quiser tudo centralizado */
+      }
 section a{
     margin-top: 10px;
     color: white;
@@ -71,4 +73,17 @@ footer {
     padding: 20px;
     margin-top: 50px;
     border-top: 1px solid #333;
+}
+button {
+    background-color: rgba(235, 28, 28, 0.729);
+    border-radius: 20px;
+    border: none;
+    color: rgb(209, 183, 183);
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgba(255, 2, 2, 0.285);
+    color: rgb(235, 223, 223);
 }

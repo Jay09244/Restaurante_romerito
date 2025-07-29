@@ -5,17 +5,18 @@ body {
     box-sizing: border-box;
     text-align: center;
 }
-
-.daiki{
-    width: 550px;
-}
-
 section img{
     width: 500px;
     padding: 10px;
 
 }
 
+.daiki{
+    margin-bottom: 40px;
+}
+h4 {
+    font-size: 25px;
+}
 section a {
     margin-top: 10px;
     color: white;
@@ -42,7 +43,7 @@ section a:hover {
 
 /* Alinhamento */
 .texto1{
-    margin-bottom: 75px;
+    margin-bottom: 85px;
 }
 .texto2{
     margin-bottom: 30px;
@@ -107,4 +108,27 @@ footer {
     padding: 20px;
     margin-top: 50px;
     border-top: 1px solid #333;
+}
+img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: block;
+    margin: 20px auto;
+    object-fit: cover;
+  }
+  button {
+    background-color: rgba(235, 28, 28, 0.729);
+    border-radius: 20px;
+    border: none;
+    color: rgb(209, 183, 183);
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgba(255, 2, 2, 0.285);
+    color: rgb(235, 223, 223);
 }
