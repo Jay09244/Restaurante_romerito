@@ -1,0 +1,93 @@
+.topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: transparent;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+.logo img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+}
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+    background-color: rgba(255, 255, 255, 0);
+}
+/* Container principal */
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  color: #f0f0f0;
+  line-height: 1.7;
+  font-size: 1rem;
+}
+
+/* Espaço entre seções */
+section {
+  margin-bottom: 40px;
+}
+
+/* Estilo dos títulos das seções */
+section h2 {
+  font-size: 1.6rem;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #e0e0e0;
+  border-bottom: 1px solid #555;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+/* Imagens e nomes */
+main > div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+main > div img {
+  width: 200px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(255,255,255,0.1);
+  transition: transform 0.3s ease;
+}
+
+main > div img:hover {
+  transform: scale(1.05);
+}
+
+main > div p {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #ccc;
+}
+/* Rodapé */
+footer {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    text-align: center;
+    font-size: 0.85rem;
+    padding: 20px;
+    margin-top: 50px;
+    border-top: 1px solid #333;
+}
