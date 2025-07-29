@@ -4,18 +4,7 @@ body{
     text-align: center;
     box-sizing: border-box;
 }
-
-footer {
-    background-color: rgba(255, 255, 255, 0.1);
-    color: white;
-    text-align: center;
-    font-size: 0.85rem;
-    padding: 20px;
-    margin-top: 50px;
-    border-top: 1px solid #333;
-}
-
-img{
+main img{
     width: 500px;
     display: flex;
     gap: 10px;
@@ -23,6 +12,28 @@ img{
     align-items: center;
     vertical-align: top;
 }
+
+/* Navegação */
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+nav a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
 
 .caixa {
     display: flex;
@@ -43,7 +54,13 @@ img{
     padding: 10px;
 }
 
-a{
+/* Rodapé */
+footer {
+    background-color: rgba(255, 255, 255, 0.1);
     color: white;
-    margin: 5px;
+    text-align: center;
+    font-size: 0.85rem;
+    padding: 20px;
+    margin-top: 50px;
+    border-top: 1px solid #333;
 }
