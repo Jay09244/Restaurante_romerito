@@ -1,96 +1,111 @@
 .topo {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 30px;
-    background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  background-color: transparent;
 }
 
 body{
-    background-color: black;
-    color: white;
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .logo img {
-    width: 150px;
-    height: auto;
-    border-radius: 8px;
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
 }
 
 main {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 20px;
-  color: #f0f0f0;
-  line-height: 1.7;
-  font-size: 1rem;
+padding: 20px;
+color: #f0f0f0;
+line-height: 1.7;
+font-size: 1rem;
 }
+
 
 section {
-  margin-bottom: 40px;
+margin-bottom: 40px;
 }
 
-section h2 {
-  font-size: 1.6rem;
-  margin-top: 30px;
-  margin-bottom: 15px;
-  color: #e0e0e0;
-  border-bottom: 1px solid #555;
-  padding-bottom: 5px;
-  text-align: center;
+h2 {
+font-size: 1.9rem;
+color: rgb(216, 0, 0);
+margin-bottom: 0px;
+}
+.centro{
+  margin-left: 520px;
+}
+.caixa{
+  display: flex;
+  justify-content: flex-start;   
+  align-items: flex-start;
+  margin: 5px;
+  padding: 10px;
+}
+
+.caixa section, h2{
+ gap: 20px;
+  margin: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 /* Navegação */
 nav {
-    display: flex;
-    gap: 20px;
+  display: flex;
+  gap: 20px;
 }
 
 nav a {
-    color: white;
-    text-decoration: none;
-    font-size: 19px;
-    font-weight: 500;
-    padding: 10px 20px;
-    transition: all 0.3s ease;
-    background-color: rgba(255, 255, 255, 0);
+  color: white;
+  text-decoration: none;
+  font-size: 19px;
+  font-weight: 500;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+  background-color: rgba(255, 255, 255, 0);
 }
 nav a:hover{
-  color: white;
-  text-decoration: underline;
+color: white;
+text-decoration: underline;
 }
 
 /* Imagens e nomes */
 main > div {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 30px;
-  margin-top: 30px;
-  text-align: center;
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+flex-wrap: wrap;
+gap: 30px;
+margin-top: 30px;
 }
 
 main > div img {
-  width: 200px;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(255,255,255,0.1);
-  transition: transform 0.3s ease;
+width: 200px;
+border-radius: 12px;
+box-shadow: 0 4px 12px rgba(255,255,255,0.1);
+transition: transform 0.3s ease;
 }
 
 main > div img:hover {
-  transform: scale(1.05);
+transform: scale(1.05);
 }
 
 main > div p {
-  margin-top: 10px;
-  font-weight: bold;
-  color: #ccc;
+margin-top: 10px;
+font-weight: bold;
+color: #ccc;
 }
 /* Rodapé */
 footer {
-    background-color: rgba(255, 255, 255, 0.1);
-    color: white;
-    text-align: center;
-    font-size: 0.85rem;
-    padding: 20px;
-    margin-top: 50px;
-    border-top: 1px solid #333;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  text-align: center;
+  font-size: 0.85rem;
+  padding: 20px;
+  margin-top: 50px;
+  border-top: 1px solid #333;
 }

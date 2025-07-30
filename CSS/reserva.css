@@ -23,11 +23,18 @@ header {
 header h1 {
     font-size: 2rem;
     margin-bottom: 10px;
+    width: 70%;
+    margin-left: 15%;
+}
+.destaque{
+    color: rgb(216, 0, 0);
 }
 
 header p {
     font-size: 1.1rem;
     color: #ddd;
+    width: 70%;
+    margin-left: 15%;
 }
 /* Logo */
 .logo img {
@@ -75,10 +82,13 @@ form p {
 label {
     display: block;
     font-size: large;
-    color: rgb(249, 249, 249);
+    color: rgb(255, 255, 255);
     margin-bottom: 5px;
 }
-
+input {
+    background-color: #131313;
+    color: #5f5f5f;
+}
 .texto {
     width: 90%;
     padding: 10px;

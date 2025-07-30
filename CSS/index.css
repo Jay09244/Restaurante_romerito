@@ -1,5 +1,5 @@
 body{
-    background-image: url("https://uploads.onecompiler.io/43qyrtjtk/43s5fjg7y/CARDAPIOS_20250729_130127_0000.jpg");
+    background-image: url("https://uploads.onecompiler.io/43s6e2a5d/43s6e2tbe/bem-vindo_20250729_204420_0000.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -7,21 +7,12 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-p{
-    color: white;
-    width: 580px;
-    font-size: 33px;
-    margin-top: 250px;
-    margin-left: 330px ;
-    text-align: left;
-}
-
 nav{
     display: flex;
     justify-content: flex-end; 
     gap: 20px; 
     padding: 20px;
-    background-color: transparent; 
+    background-color: transparent;
 }
 a{
     text-align: left;
