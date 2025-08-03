@@ -2,21 +2,16 @@ body {
     background-color: black;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    box-sizing: border-box;
-    text-align: center;
-}
-section img{
-    width: 500px;
-    padding: 10px;
-
 }
 
 .daiki{
     margin-bottom: 40px;
 }
-h4 {
-    font-size: 25px;
+h3 {
+    color: rgba(237, 31, 31, 0.921);
+    font-size: 30px;
 }
+
 section a {
     margin-top: 10px;
     color: white;
@@ -63,11 +58,17 @@ section{
 
 .caixa section{
     margin: 5px;
-    padding: 10px;
+    padding-bottom: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.caixa section p{
+    margin-right: 50px;
+    margin-left: 40px;
+    font-size: 19px;
 }
 /* Logo */
 
@@ -94,7 +95,7 @@ nav a {
 }
 
 nav a:hover {
-    color: white;
+    color: rgba(235, 28, 28, 0.729);
     text-decoration: underline;
 }
 
@@ -113,11 +114,9 @@ img {
     width: 100%;
     max-width: 500px;
     height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
     display: block;
     margin: 20px auto;
-    object-fit: cover;
   }
   button {
     background-color: rgba(235, 28, 28, 0.729);
@@ -126,7 +125,6 @@ img {
     color: rgb(209, 183, 183);
     padding: 10px 20px;
     font-weight: bold;
-    cursor: pointer;
 }
 button:hover {
     background-color: rgba(255, 2, 2, 0.285);

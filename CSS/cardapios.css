@@ -1,18 +1,18 @@
 body{
+    font-family: Arial, Helvetica, sans-serif;
     background-color: black;
     color: white;
     box-sizing: border-box;
     text-align: center;
 }
 main img{
-    width: 500px;
+    width: 300px;
     display: flex;
     gap: 10px;
     justify-content: space-between;
     align-items: center;
     vertical-align: top;
 }
-
 /* Navegação */
 nav {
     display: flex;
@@ -29,10 +29,12 @@ nav a {
     transition: all 0.3s ease;
     background-color: rgba(255, 255, 255, 0);
     margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: -30px;
 }
 
 nav a:hover {
-    color: white;
+    color: rgba(235, 28, 28, 0.729);
     text-decoration: underline;
 }
 
@@ -65,21 +67,36 @@ button{
     font-weight: bold;
     cursor: pointer;
 }
-/* Tamanho do Título */
-h3{
-    font-size: 40px;
+
+button:hover {
+    background-color: rgba(255, 2, 2, 0.285);
+    color: rgb(235, 223, 223);
 }
 
+h1{
+    font-size: 40px;
+    color: rgb(216, 0, 0);
+    background-color: #181818;
+    padding: 10px;
+}
+h4{
+    color: rgb(216, 0, 0);
+    font-size: 25px;
+}
+em{
+    color: white;
+}
 section p{
-    text-align: justify;
+    font-size: 18px;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
 }
 
 .preco{
     font-size: 20px;
 }
-#doce{
-    width: 60px;
-}
+
 /* Rodapé */
 footer {
     background-color: rgba(255, 255, 255, 0.1);
@@ -89,4 +106,25 @@ footer {
     padding: 20px;
     margin-top: 50px;
     border-top: 1px solid #333;
+}
+
+/* Sushi */
+#pepino{
+    width: 450px;
+}
+
+.hot{
+    margin-left: -120px;
+}
+
+.uramaki{
+    margin-left: -90px;
+}
+
+.caixa .pepino{
+    margin-left: 250px;
+    margin-right: -150px;
+}
+.caixa .temaki{
+    margin-left: 350px;
 }

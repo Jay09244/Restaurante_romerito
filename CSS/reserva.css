@@ -60,7 +60,7 @@ nav a {
 }
 
 nav a:hover {
-    color: white;
+    color: rgba(235, 28, 28, 0.729);
     text-decoration: underline;
 }
 

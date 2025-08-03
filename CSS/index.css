@@ -24,7 +24,28 @@ a{
     transition: all 0.3s ease;
     background-color: rgba(255, 255, 255, 0);
 }
-a:hover{
-    color: white;
+
+select:hover,a:hover{
+    color: rgba(235, 28, 28, 0.729);
     text-decoration: underline;
+}
+
+select {
+    border: none;
+    text-align: left;
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 500;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+option {
+    background-color: black;
+    color: white;            
+    padding: 10px;
+    font-size: 18px;
+   border: none;
 }

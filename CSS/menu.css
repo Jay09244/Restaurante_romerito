@@ -13,26 +13,34 @@ body {
     padding: 10px 30px;
     background-color: transparent;
 }
+h1{
+    font-size: 40px;
+}
+h1, h2{
+    color: rgba(235, 28, 28, 0.729);
+}
 section{
-      max-width: 1000px;
-     margin: 40px auto;
-     padding: 20px;
-        text-align: center; /* opcional: só se quiser tudo centralizado */
-      }
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center; 
+}
 section a{
     margin-top: 10px;
     color: white;
-    text-decoration:none;
     font-size: 19px;
     font-weight: 500;
     padding: 20px;
     transition: all 0.3s ease;
     background-color: rgba(255, 255, 255, 0);
+    text-decoration: none;
 }
-
+section p{
+    font-size: 20px;
+}
 section a:hover {
     color: white;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 /* Logo */
@@ -60,7 +68,7 @@ nav a {
 }
 
 nav a:hover {
-    color: white;
+    color: rgba(235, 28, 28, 0.729);
     text-decoration: underline;
 }
 
@@ -81,7 +89,6 @@ button {
     color: rgb(209, 183, 183);
     padding: 10px 20px;
     font-weight: bold;
-    cursor: pointer;
 }
 button:hover {
     background-color: rgba(255, 2, 2, 0.285);
